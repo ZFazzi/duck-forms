@@ -1,0 +1,43 @@
+body{
+    background: #9DBEBB;
+}
+
+
+.red-container{
+    background-color: #BE0909;
+    margin:243px;
+    width: 950px;
+    height: 600px;
+}
+
+.email{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: auto;
+    letter-spacing: 10%;
+    font-size: 18px;
+    color: #fcffff;
+}
+
+.submit{
+    width: 102px;
+    height: 46px;
+    margin-left: 14px;
+    margin-top: 50px;
+    border-radius: 6px;
+    border-color: #468189;
+    background-color: #468189;
+    color: #FFFFFF;
+    line-height: auto;
+    letter-spacing: none;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.submit:hover {
+    background-color: #468189b9;
+    color: white;
+  }
