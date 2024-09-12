@@ -17,6 +17,7 @@ body{
     align-items: flex-start;
     max-width: 100%;
     max-height: 100%;
+    position:absolute;
 
 }
 
@@ -24,14 +25,16 @@ body{
     background-color: #FFB039;
     width: 345px;
     height: 600px;
-    margin-left: 610px;
-    margin-top: -533px;
+    margin-left: 605px;
+    margin-top: -553px;
+    position:static;
 }
 
 .yellow-container img{
     object-fit: contain;
-    margin-left: -300px;
+    margin-left: -260px;
     margin-top: 52px;
+    position: fixed;
 }
 
 .label{
@@ -59,6 +62,7 @@ body{
     font-size: 18px;
     color: #feffff;
     margin-left: 65px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -67,6 +71,27 @@ body{
     border-left: none;
     border-right: none;
     border-bottom: 0.5px solid #9DBEBB;
+    width: 300px;
+}
+
+.input-field-short{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: auto;
+    letter-spacing: 0.3em;
+    font-size: 18px;
+    color: #feffff;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid #9DBEBB;
+    width: 150px;
 }
 
 
