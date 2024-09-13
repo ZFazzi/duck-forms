@@ -95,7 +95,7 @@ body{
 }
 
 
-.submit{
+.button{
     width: 202px;
     height: 48px;
     margin-left: 164px;
@@ -112,7 +112,12 @@ body{
     font-style: normal;
 
 }
-.submit:hover {
+.button:hover {
     background-color: #468189b9;
     color: white;
   }
+/*button:disabled{
+    background-color: #dfdfdc;
+    color: black;
+    opacity: 0.6;
+}*/
