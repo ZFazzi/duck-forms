@@ -26,7 +26,7 @@ body{
     width: 345px;
     height: 600px;
     margin-left: 605px;
-    margin-top: -553px;
+    margin-top: -552px;
     position:static;
 }
 
@@ -34,7 +34,7 @@ body{
     object-fit: contain;
     margin-left: -260px;
     margin-top: 52px;
-    position: fixed;
+    position: absolute;
 }
 
 .label{
